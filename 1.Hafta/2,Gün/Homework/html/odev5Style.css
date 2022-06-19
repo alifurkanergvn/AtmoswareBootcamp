@@ -1,0 +1,22 @@
+.dis_cerceve{
+    width: 95%;
+    height: 85%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color:rgb(206, 12, 51) ;
+    position: relative;
+    margin: auto;
+}
+ .ic_cerceve{
+    width: 55%;
+    height: 55%;
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-bottom: 80px;
+    background-color: rgb(122, 11, 33) ;
+    position: relative;
+    margin: auto;
+ }
+
+ 
+

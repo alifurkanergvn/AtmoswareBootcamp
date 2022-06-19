@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>css</title>
+    <!-- türkçe karakter -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ali Furkan Ergüven" />
+    <meta name="description" content="Html5 property" />
+    <link rel="stylesheet" href="./odev5Style.css">
+
+    <title>Odev5</title>
+    <link rel="shortcut icon" href="../picture/resim1.jpg" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+         }
+    </style>
+</head>
+
+<body>
+    <!-- start code -->
+    <div class="dis_cerceve">
+        <div class="ic_cerceve">
+            <form action="#" method="get" autocomplete="on">
+                
+                <div id="div_first">
+                    <label for="adi">Name:</label>
+                    <input type="text" id="adi" name="adi" placeholder="your name" required autofocus />
+                </div>
+            
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="your email" required autofocus />
+                </div>
+            
+                <br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="" required autofocus />
+                </div>
+            
+                <br>
+                <div>
+                    <label for="phonenumber">Phone Number:</label>
+                    <input type="number" id="phonenumber" name="phonenumber" placeholder="" required autofocus />
+                </div>
+            
+                <br>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="hidden" id="gender" name="gender"  required  />
+                    <label for="erkek">Male:</label>
+                    <input type="radio" id="erkek" name="gender" checked />
+                    <label for="bayan">Female:</label>
+                    <input type="radio" id="bayan" name="gender"   />
+                    <label for="other">Other:</label>
+                    <input type="radio" id="other" name="gender"   />
+                
+                </div>
+            
+                <br>
+                <div>
+                    <label for="dil">language:</label>
+                    <select name="backend_data" id="data" >
+                        <option value="0" >Select language</option>
+                        <option value="backend_javase" >Turkish</option>
+                        <option value="backend_javaee" >English</option>
+                        <option value="backend_javame" >Germany</option>
+                    </select>
+                </div>
+            
+                <br>
+                <div>
+                    <label for="zipcode">Zip Code:</label>
+                    <input type="text" id="zipcode" name="zipcode"  required autofocus />
+                </div>
+            
+                <br>
+                <div>
+                    <label for="about">About</label>
+                    <textarea rows="3" cols="20" placeholder="Write about yourself"></textarea>
+                </div>
+            
+                <br>
+                <div>
+                    <input type="button" value="Register">
+                </div>
+             
+
+
+
+
+
+            </form>
+        </div>
+    </div> 
+    <!-- ends code -->
+</body>
+
+</html>
